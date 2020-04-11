@@ -1,5 +1,7 @@
 #pragma once
-class OutPrint
-{
-};
+//class OutPrint
+//{
+//};
 
+void printInteger(int param);
+void printString(const char* param);

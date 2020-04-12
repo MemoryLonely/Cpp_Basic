@@ -3,3 +3,5 @@
 void printPointer();
 void pointerStatus();
 void pointerBuffer();
+
+void compositeType();

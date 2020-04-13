@@ -7,8 +7,10 @@
 #include<iostream>
 #include<cstdlib>
 
+using namespace std;
+
 //打印指针结果
-void printPointer() {
+void printPointerValue() {
 	int num_1 = 10;					//初始化一个值为 10 的 int 类型的变量
 	int* num_1_P = &num_1;    //初始化一个指针, 获取变量的地址值 
 
@@ -28,7 +30,7 @@ void pointerStatus() {
 	//intVar = &duVar_1;      //false
 
 	int* nullPrt = 0;  //空指针
-	nullPrt = NULL;  //空指针
+	//nullPrt = NULL;  //空指针
 
 	int ival = 1024;
 	int* intPtr = &ival;

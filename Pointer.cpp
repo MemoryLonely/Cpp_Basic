@@ -51,7 +51,6 @@ void pointerBuffer() {
 
 /*
 	复合类型的数据声明 
-	
 */
 void compositeType() {
 	int i = 1024;  // int 类型的对象
@@ -66,10 +65,17 @@ void compositeType() {
 	cout << *num << endl;
 }
 
+//引用类型
+void increment(int* value) {
+	*value++;
+	(*value)++;
+}
+
 /*
 	const 限定符
 	const 对象一旦创建就不能改变, 所以必须复制
 */
 void constFunction() {
 	const int bufferSize = 512;  //缓冲区大小
+
 }

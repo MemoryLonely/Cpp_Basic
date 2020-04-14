@@ -19,10 +19,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Arrays.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="OutPrint.cpp" />
     <ClCompile Include="Pointer.cpp" />
     <ClCompile Include="Sorting.cpp" />
+    <ClCompile Include="Storage.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Algorithm.h" />

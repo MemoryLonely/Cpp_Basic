@@ -10,8 +10,6 @@
 
 using namespace std;
 
-using namespace std;
-
 //打印指针结果
 void printPointerValue() {
 	int num_1 = 10;					//初始化一个值为 10 的 int 类型的变量
@@ -49,9 +47,7 @@ void pointerBuffer() {
 	delete[] buffer;
 }
 
-/*
-	复合类型的数据声明 
-*/
+//复合类型的数据声明 
 void compositeType() {
 	int i = 1024;  // int 类型的对象
 	int *p = &i;   // int 类型的指针
@@ -69,13 +65,5 @@ void compositeType() {
 void increment(int* value) {
 	*value++;
 	(*value)++;
-}
-
-/*
-	const 限定符
-	const 对象一旦创建就不能改变, 所以必须复制
-*/
-void constFunction() {
-	const int bufferSize = 512;  //缓冲区大小
-
+	cout << value << endl;
 }

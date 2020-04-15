@@ -19,6 +19,9 @@
     <Filter Include="Source Files\Basic">
       <UniqueIdentifier>{081df08d-af66-4a72-8f99-9c0a05bc7e03}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Socket">
+      <UniqueIdentifier>{3f6f807e-d267-46d5-a982-d29403ea31a9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -38,6 +41,9 @@
     </ClCompile>
     <ClCompile Include="Arrays.cpp">
       <Filter>Source Files\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketServer.cpp">
+      <Filter>Source Files\Socket</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

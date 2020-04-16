@@ -1,5 +1,8 @@
 /*
-	Server side C/C++ program to demonstrate Socket programming
+	服务端 socket 套接字
 */
-
 #include <winsock.h>
+
+// 创建 socket
+void createSocket() {
+}

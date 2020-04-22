@@ -22,12 +22,24 @@
     <Filter Include="Source Files\Socket">
       <UniqueIdentifier>{3f6f807e-d267-46d5-a982-d29403ea31a9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\IO">
+      <UniqueIdentifier>{b886e3a7-a9f6-4b59-be21-016dc3d370a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OpenGL">
+      <UniqueIdentifier>{80ef23f8-a2f6-43f1-ae16-0b05efc28759}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\QT">
+      <UniqueIdentifier>{6bf76e71-cf7c-4ae4-a797-62c63da2f89b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DirectX">
+      <UniqueIdentifier>{cb5a8d26-15a1-428c-8695-085b7ac955bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Boost">
+      <UniqueIdentifier>{5be1df8a-2e60-496e-9025-b6eb5781ba4c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="OutPrint.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Sorting.cpp">
@@ -45,6 +57,30 @@
     <ClCompile Include="SocketServer.cpp">
       <Filter>Source Files\Socket</Filter>
     </ClCompile>
+    <ClCompile Include="IOModel.cpp">
+      <Filter>Source Files\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindon.cpp">
+      <Filter>Source Files\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="LearnOpenGL.cpp">
+      <Filter>Source Files\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="BoostMain.cpp">
+      <Filter>Source Files\Boost</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\OpenGL\src\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OutPrint.cpp">
+      <Filter>Source Files\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="MainDirectX.cpp">
+      <Filter>Source Files\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="MainQT.cpp">
+      <Filter>Source Files\QT</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="OutPrint.h">
@@ -56,5 +92,22 @@
     <ClInclude Include="Algorithm.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="MainOpenGL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BoostCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\OpenGL\glew-2.1.0-win32.zip">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\OpenGL\glfw-3.3.2.bin.WIN64.zip">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\OpenGL\glad.zip">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
 </Project>

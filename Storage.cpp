@@ -17,5 +17,4 @@ thread_local int x;
 void write_extern(void) {
 	register int miles;  //用于定义存储在寄存器中而不是 RAM 中的局部变量
 
-	std::cout << num << std::endl;
 }

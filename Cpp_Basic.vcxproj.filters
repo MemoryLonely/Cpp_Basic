@@ -37,6 +37,9 @@
     <Filter Include="Source Files\Boost">
       <UniqueIdentifier>{5be1df8a-2e60-496e-9025-b6eb5781ba4c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\OpenGL\GLSL">
+      <UniqueIdentifier>{16beb111-21a6-4cec-a3ca-7daad7adb1a3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -60,12 +63,6 @@
     <ClCompile Include="IOModel.cpp">
       <Filter>Source Files\IO</Filter>
     </ClCompile>
-    <ClCompile Include="MainWindon.cpp">
-      <Filter>Source Files\OpenGL</Filter>
-    </ClCompile>
-    <ClCompile Include="LearnOpenGL.cpp">
-      <Filter>Source Files\OpenGL</Filter>
-    </ClCompile>
     <ClCompile Include="BoostMain.cpp">
       <Filter>Source Files\Boost</Filter>
     </ClCompile>
@@ -78,8 +75,11 @@
     <ClCompile Include="MainDirectX.cpp">
       <Filter>Source Files\DirectX</Filter>
     </ClCompile>
-    <ClCompile Include="MainQT.cpp">
-      <Filter>Source Files\QT</Filter>
+    <ClCompile Include="MakeWindons.cpp">
+      <Filter>Source Files\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="HelloTriangle.cpp">
+      <Filter>Source Files\OpenGL</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -108,6 +108,12 @@
     </None>
     <None Include="..\..\..\OpenGL\glad.zip">
       <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Triangle.vert">
+      <Filter>Source Files\OpenGL\GLSL</Filter>
+    </None>
+    <None Include="Widget.ui">
+      <Filter>Source Files\QT</Filter>
     </None>
   </ItemGroup>
 </Project>

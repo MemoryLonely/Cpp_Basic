@@ -1,26 +1,17 @@
 #include<iostream>
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
-
 #include"MainOpenGL.h"
 
-/*
-* Learn OpenGL https://learnopengl-cn.github.io/
-*
-* version : OpenGL 3.3
-*
-* GLFW 文档 https://www.glfw.org/docs/latest/window.html#window_hints
-*/
-
 using namespace std;
+
+const unsigned int SCR_WIDTH = 800;
+const unsigned int SCR_HEIGHT = 600;
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void processInput(GLFWwindow* window);
 
-/*
-* 程序启动入口
-*/
-int main(int argc, char** argv[]) {
+int makeWin() {
 	glfwInit();	//初始化 GLFW
 
 	//配置 GLFW
@@ -36,7 +27,8 @@ int main(int argc, char** argv[]) {
 		return -1;
 	}
 
-	glfwMakeContextCurrent(window); //将窗口的上下文设置为当前线程的主上下文
+	//将窗口的上下文设置为当前线程的主上下文
+	glfwMakeContextCurrent(window); 
 
 	//初始化 GLAD
 	if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress)) {
@@ -54,7 +46,7 @@ int main(int argc, char** argv[]) {
 		glClear(GL_COLOR_BUFFER_BIT);			    //清除颜色缓冲之后，整个颜色缓冲都会被填充为glClearColor里所设置的颜色
 		glfwSwapBuffers(window);						    //交换颜色缓冲
 		glfwPollEvents();
-	}
+	} 
 
 	glfwTerminate(); //释放之前的分配的所有资源
 	return 0;
@@ -66,9 +58,7 @@ void processInput(GLFWwindow* window) {
 		glfwSetWindowShouldClose(window, true);
 }
 
-//
+//定义 窗口尺寸
 void framebuffer_size_callback(GLFWwindow* window, int width, int height) {
 	glViewport(0, 0, width, height);
 }
-
-

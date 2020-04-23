@@ -22,12 +22,11 @@
     <ClCompile Include="..\..\..\OpenGL\src\glad.c" />
     <ClCompile Include="Arrays.cpp" />
     <ClCompile Include="BoostMain.cpp" />
+    <ClCompile Include="HelloTriangle.cpp" />
     <ClCompile Include="IOModel.cpp" />
-    <ClCompile Include="LearnOpenGL.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="MainDirectX.cpp" />
-    <ClCompile Include="MainQT.cpp" />
-    <ClCompile Include="MainWindon.cpp" />
+    <ClCompile Include="MakeWindons.cpp" />
     <ClCompile Include="OutPrint.cpp" />
     <ClCompile Include="Pointer.cpp" />
     <ClCompile Include="SocketServer.cpp" />
@@ -45,6 +44,8 @@
     <None Include="..\..\..\OpenGL\glad.zip" />
     <None Include="..\..\..\OpenGL\glew-2.1.0-win32.zip" />
     <None Include="..\..\..\OpenGL\glfw-3.3.2.bin.WIN64.zip" />
+    <None Include="Triangle.vert" />
+    <None Include="Widget.ui" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

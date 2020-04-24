@@ -26,6 +26,7 @@
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="MainDirectX.cpp" />
     <ClCompile Include="MakeWindons.cpp" />
+    <ClCompile Include="ObjectFunction.cpp" />
     <ClCompile Include="OutPrint.cpp" />
     <ClCompile Include="Pointer.cpp" />
     <ClCompile Include="SocketServer.cpp" />
@@ -37,6 +38,7 @@
     <ClInclude Include="BoostCommon.h" />
     <ClInclude Include="Common.h" />
     <ClInclude Include="MainOpenGL.h" />
+    <ClInclude Include="ObjectFunction.h" />
     <ClInclude Include="OutPrint.h" />
   </ItemGroup>
   <ItemGroup>
@@ -113,11 +115,11 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>G:\QT\boost_1_72_0;G:\OpenGL\glfw-3.3.2.bin.WIN64\include;G:\OpenGL\glew-2.1.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>G:\QT\Qt5.14.2\5.14.2\msvc2017_64\include;G:\QT\boost_1_72_0;G:\OpenGL\glfw-3.3.2.bin.WIN64\include;G:\OpenGL\glew-2.1.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
-      <AdditionalLibraryDirectories>G:\QT\boost_1_72_0\stage\lib;G:\OpenGL\glfw-3.3.2.bin.WIN64\lib-vc2019;G:\OpenGL\glew-2.1.0\lib\Release\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>G:\QT\Qt5.14.2\5.14.2\msvc2017_64\lib;G:\QT\boost_1_72_0\stage\lib;G:\OpenGL\glfw-3.3.2.bin.WIN64\lib-vc2019;G:\OpenGL\glew-2.1.0\lib\Release\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>opengl32.lib;glfw3.lib;glew32s.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>

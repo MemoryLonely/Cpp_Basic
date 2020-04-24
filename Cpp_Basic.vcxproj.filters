@@ -40,6 +40,21 @@
     <Filter Include="Source Files\OpenGL\GLSL">
       <UniqueIdentifier>{16beb111-21a6-4cec-a3ca-7daad7adb1a3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Basic\Control">
+      <UniqueIdentifier>{59d67f30-d9ac-4fc4-9b9b-f6a6cc8d1d5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Basic\Function">
+      <UniqueIdentifier>{daca5bd9-3ba2-4bf5-a95c-7b51c52cf7d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Basic\Array">
+      <UniqueIdentifier>{6a4f4aab-1570-4304-ba2f-57b2d190ff06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Basic\Pointer">
+      <UniqueIdentifier>{57d89086-739e-49b3-9ac4-1cf143ef2da2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Basic\ClassObject">
+      <UniqueIdentifier>{5f1b2e66-3825-4d35-967e-878ce36d9568}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -48,13 +63,7 @@
     <ClCompile Include="Sorting.cpp">
       <Filter>Source Files\Algorithm</Filter>
     </ClCompile>
-    <ClCompile Include="Pointer.cpp">
-      <Filter>Source Files\Basic</Filter>
-    </ClCompile>
     <ClCompile Include="Storage.cpp">
-      <Filter>Source Files\Basic</Filter>
-    </ClCompile>
-    <ClCompile Include="Arrays.cpp">
       <Filter>Source Files\Basic</Filter>
     </ClCompile>
     <ClCompile Include="SocketServer.cpp">
@@ -78,6 +87,15 @@
     <ClCompile Include="MakeWindons.cpp">
       <Filter>Source Files\OpenGL</Filter>
     </ClCompile>
+    <ClCompile Include="Pointer.cpp">
+      <Filter>Source Files\Basic\Pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="Arrays.cpp">
+      <Filter>Source Files\Basic\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectFunction.cpp">
+      <Filter>Source Files\Basic\ClassObject</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="OutPrint.h">
@@ -93,6 +111,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="BoostCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectFunction.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

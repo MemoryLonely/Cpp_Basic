@@ -78,9 +78,6 @@
     <ClCompile Include="MakeWindons.cpp">
       <Filter>Source Files\OpenGL</Filter>
     </ClCompile>
-    <ClCompile Include="HelloTriangle.cpp">
-      <Filter>Source Files\OpenGL</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="OutPrint.h">
@@ -100,15 +97,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\..\OpenGL\glew-2.1.0-win32.zip">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="..\..\..\OpenGL\glfw-3.3.2.bin.WIN64.zip">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="..\..\..\OpenGL\glad.zip">
-      <Filter>Resource Files</Filter>
-    </None>
     <None Include="Triangle.vert">
       <Filter>Source Files\OpenGL\GLSL</Filter>
     </None>

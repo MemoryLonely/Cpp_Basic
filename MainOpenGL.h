@@ -1,5 +1,4 @@
 #pragma once
-
 /*
 * Learn OpenGL https://learnopengl-cn.github.io/
 *

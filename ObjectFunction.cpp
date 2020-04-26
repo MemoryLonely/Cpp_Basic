@@ -1,3 +1,4 @@
+#include<iostream>
 #include "ObjectFunction.h"
 
 /*
@@ -15,7 +16,7 @@ ObjectFunction::ObjectFunction(int i, const char* n) {
 	this->name = n;
 }
 
-// 实现加法
+// 实现加法函数
 int ObjectFunction::sum(int a, int b) {
 	int result = 0;
 	if (a > b) {
@@ -39,13 +40,17 @@ struct Rectangle {
 		height = h;
 	}
 };
-
 void areaOfRectangle() {
 	struct  Rectangle ref;
 	ref.height = 10;
 	ref.width  = 20;
 }
 
-//实现枚举
+//实现枚举  枚举索引从  0  开始
 enum week { Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday }; 
+void printDay() {
+	week day;
+	day = Monday;
+	std::cout << "Day: " << day<< std::endl;
+}
 

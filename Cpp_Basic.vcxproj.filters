@@ -13,116 +13,48 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Source Files\Algorithm">
-      <UniqueIdentifier>{62136aa1-c42a-4435-a357-74fec982b7bb}</UniqueIdentifier>
+    <Filter Include="Source Files\Service">
+      <UniqueIdentifier>{139cad17-172b-4bc1-b764-0fcfcf760b81}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Basic">
-      <UniqueIdentifier>{081df08d-af66-4a72-8f99-9c0a05bc7e03}</UniqueIdentifier>
+    <Filter Include="Source Files\RESTfulAPI">
+      <UniqueIdentifier>{a701621a-081e-45f3-a349-b08788f3e376}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Socket">
-      <UniqueIdentifier>{3f6f807e-d267-46d5-a982-d29403ea31a9}</UniqueIdentifier>
+    <Filter Include="Source Files\Util">
+      <UniqueIdentifier>{51c890ec-f427-44bd-9abc-d207ca362ea4}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\IO">
-      <UniqueIdentifier>{b886e3a7-a9f6-4b59-be21-016dc3d370a2}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\OpenGL">
-      <UniqueIdentifier>{80ef23f8-a2f6-43f1-ae16-0b05efc28759}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\QT">
-      <UniqueIdentifier>{6bf76e71-cf7c-4ae4-a797-62c63da2f89b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\DirectX">
-      <UniqueIdentifier>{cb5a8d26-15a1-428c-8695-085b7ac955bf}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Boost">
-      <UniqueIdentifier>{5be1df8a-2e60-496e-9025-b6eb5781ba4c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\OpenGL\GLSL">
-      <UniqueIdentifier>{16beb111-21a6-4cec-a3ca-7daad7adb1a3}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Basic\Control">
-      <UniqueIdentifier>{59d67f30-d9ac-4fc4-9b9b-f6a6cc8d1d5d}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Basic\Function">
-      <UniqueIdentifier>{daca5bd9-3ba2-4bf5-a95c-7b51c52cf7d2}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Basic\Array">
-      <UniqueIdentifier>{6a4f4aab-1570-4304-ba2f-57b2d190ff06}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Basic\Pointer">
-      <UniqueIdentifier>{57d89086-739e-49b3-9ac4-1cf143ef2da2}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Basic\ClassObject">
-      <UniqueIdentifier>{5f1b2e66-3825-4d35-967e-878ce36d9568}</UniqueIdentifier>
+    <Filter Include="Source Files\Util\Logger">
+      <UniqueIdentifier>{f10c7433-9518-4001-973d-92a2221a4c26}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Sorting.cpp">
-      <Filter>Source Files\Algorithm</Filter>
+    <ClCompile Include="UserLogin.cpp">
+      <Filter>Source Files\Service</Filter>
     </ClCompile>
-    <ClCompile Include="Storage.cpp">
-      <Filter>Source Files\Basic</Filter>
+    <ClCompile Include="UserOperat.cpp">
+      <Filter>Source Files\RESTfulAPI</Filter>
     </ClCompile>
-    <ClCompile Include="SocketServer.cpp">
-      <Filter>Source Files\Socket</Filter>
+    <ClCompile Include="Throwable.cpp">
+      <Filter>Source Files\Util\Logger</Filter>
     </ClCompile>
-    <ClCompile Include="IOModel.cpp">
-      <Filter>Source Files\IO</Filter>
-    </ClCompile>
-    <ClCompile Include="BoostMain.cpp">
-      <Filter>Source Files\Boost</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\OpenGL\src\glad.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="OutPrint.cpp">
-      <Filter>Source Files\Basic</Filter>
-    </ClCompile>
-    <ClCompile Include="MainDirectX.cpp">
-      <Filter>Source Files\DirectX</Filter>
-    </ClCompile>
-    <ClCompile Include="MakeWindons.cpp">
-      <Filter>Source Files\OpenGL</Filter>
-    </ClCompile>
-    <ClCompile Include="Pointer.cpp">
-      <Filter>Source Files\Basic\Pointer</Filter>
-    </ClCompile>
-    <ClCompile Include="Arrays.cpp">
-      <Filter>Source Files\Basic\Array</Filter>
-    </ClCompile>
-    <ClCompile Include="ObjectFunction.cpp">
-      <Filter>Source Files\Basic\ClassObject</Filter>
+    <ClCompile Include="ServerLogger.cpp">
+      <Filter>Source Files\Util\Logger</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="OutPrint.h">
+    <ClInclude Include="UserLogin.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Common.h">
+    <ClInclude Include="UserOperat.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Algorithm.h">
+    <ClInclude Include="ServerLogger.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="MainOpenGL.h">
+    <ClInclude Include="Throwable.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="BoostCommon.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ObjectFunction.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Triangle.vert">
-      <Filter>Source Files\OpenGL\GLSL</Filter>
-    </None>
-    <None Include="Widget.ui">
-      <Filter>Source Files\QT</Filter>
-    </None>
   </ItemGroup>
 </Project>
